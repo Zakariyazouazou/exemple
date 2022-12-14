@@ -82,7 +82,7 @@ const NavBarre = () => {
                     <ul className='relative '>
                     <li className='ml-1 pt-4 border-t border-solid border-gray-600 pb-2 mr-5 font-bold cursor-pointer '><Link to="/About">About</Link></li>
                     <li className='ml-1 pt-4 border-t border-solid border-gray-600 pb-2 mr-5 font-bold cursor-pointer '><Link to='Contact_us'>Contact Us</Link></li>
-                    <li className='ml-1 pt-4 border-t border-solid border-gray-600 pb-1 border-b  mr-5 font-bold cursor-pointer '> <Link to='Store'>Categorie </Link>{activeListe ? <AiFillCaretDown className='inline-block cursor-pointer' onClick={()=>ControlListe(false)}/> : <AiFillCaretUp className='inline-block cursor-pointer' onClick={()=>ControlListe(true)}/>}
+                    <li className='ml-1 pt-4 border-t border-solid border-gray-600 pb-1 border-b  mr-5 font-bold cursor-pointer '> <Link to='Store'>Store </Link>{activeListe ? <AiFillCaretDown className='inline-block cursor-pointer' onClick={()=>ControlListe(false)}/> : <AiFillCaretUp className='inline-block cursor-pointer' onClick={()=>ControlListe(true)}/>}
                         {activeListe &&
                             <div className='absolute mt-3 rounded-lg border-t-1  border-solid border-blue-500 bg-gray-200  forClosingAndOpening w-full'>
                                 <ul className='listeNavbarre '>

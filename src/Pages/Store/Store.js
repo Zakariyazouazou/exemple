@@ -20,7 +20,7 @@ const Store = () => {
 
   return (
     <div className='mt-28 bg-gray-200 w-11/12 flex flex-row flex-wrap ' style={{marginLeft:"4%"}}>
-       <div className='w-2/5 text-center mt-16'>
+       <div className='w-2/5 text-center mt-16 inmediascreen'>
             <input type="text" name="Serch" className='p-3 border-1 border-solid border-gray-600' placeholder='serch Product....'/> <button type="button" className='p-3 border-1 border-solid border-gray-600 bg-blue-700 text-white hover:bg-blue-800'>serch</button>
             <div className='w-1/2  ml-20'>
               <h1 className='text-gray-700 text-3xl mt-14 ' >Categorie </h1>
@@ -31,7 +31,7 @@ const Store = () => {
 
        </div>
 
-       <div className='' style={{width:"60%"}}>
+       <div className=' forModefy ' >
           <h1 className='font-bold text-3xl m-5'>Thanks for choosing our Web Site {itsfilter && <h1 className='cursor-pointer text-red-600 m-5' onClick={()=>setitsfilter(false)}>ClickHerToreturn <span>X</span></h1>}</h1>
          <div className='w-full bg-white flex flex-row flex-wrap justify-center '>
                 {!itsfilter && 
