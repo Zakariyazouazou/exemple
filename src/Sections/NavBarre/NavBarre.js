@@ -69,7 +69,7 @@ const NavBarre = () => {
        }
        { forWidth < 1000 &&
         <div className='text-center bg-blue-100'>
-            <img src={Symbol} className="w-12 h-12 ml-2" alt="Logo" />
+          <Link to='/'><img src={Symbol} className="w-12 h-12 ml-2" alt="Logo" /></Link>
             <div className=' absolute top-0 right-10'>
                         <ul className='flex items-center'>
                                 <li className='ml-1 mr-1 mt-2 font-bold cursor-pointer ' onClick={()=>{activeSidebarre(true)}}>${TotalPrice}</li>       
