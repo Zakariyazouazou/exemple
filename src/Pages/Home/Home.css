@@ -1,0 +1,36 @@
+.presentation{
+    background-image: url('../../assets/img/background-middle-ages-village-7632590.jpg');
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed; 
+}
+.Container_Home{
+    margin-top: 24rem;
+    padding-bottom: 20px;
+}
+.LImitedHome{
+    background-image: url('../../assets/img/woman.jpg');
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed; 
+}
+.SpecielConatiner{
+      margin-left: 7%;
+}
+
+
+
+@media screen and (max-width:950px) {
+    .Container_Home{
+        width: 100%;
+        margin: 0;
+    }
+    .inmediascreen{
+        width: 100%;
+        margin: 0;
+    } 
+    .SpecielConatiner{
+        margin-left: 0;
+        width: 100%;
+  }
+}

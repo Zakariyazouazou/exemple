@@ -1,0 +1,17 @@
+.AboutTop{
+    background-image: url('../../assets/img/banner-04.jpg');
+    background-size: cover;
+    opacity: 0.8;
+    background-attachment: fixed; 
+}
+.AboutScreen{
+    background-image: url('../../assets/img/people-women-talking-2567915.jpg');
+
+}
+
+
+@media screen and (max-width:950px){
+    .Aboutp{
+        width: 100%;
+    }
+} 
