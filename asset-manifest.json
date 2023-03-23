@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/exemple/static/css/main.4a729a39.css",
+    "main.js": "/exemple/static/js/main.4d9c7ba0.js",
+    "static/media/woman.jpg": "/exemple/static/media/woman.8ae94b3e5eb3d3f1b45e.jpg",
+    "static/media/people-women-talking-2567915.jpg": "/exemple/static/media/people-women-talking-2567915.f1658c5768aefa0b7dea.jpg",
+    "static/media/background-middle-ages-village-7632590.jpg": "/exemple/static/media/background-middle-ages-village-7632590.004a620bd30429b9894a.jpg",
+    "static/media/banner-04.jpg": "/exemple/static/media/banner-04.c0c86c1a794ca5f2f6a0.jpg",
+    "static/media/woman-g407f9a2eb_1280.jpg": "/exemple/static/media/woman-g407f9a2eb_1280.8b88582fbf7dd5e5bc8c.jpg",
+    "static/media/Kissing4.png": "/exemple/static/media/Kissing4.ff5b997ff37045005055.png",
+    "static/media/Symbol1.png": "/exemple/static/media/Symbol1.fd4cafb75cadb35ed01f.png",
+    "static/media/kisspng1.png": "/exemple/static/media/kisspng1.d265b95558fd20af2433.png",
+    "static/media/Kissing2.png": "/exemple/static/media/Kissing2.0d62af64348a0b92e687.png",
+    "static/media/Kissing3.png": "/exemple/static/media/Kissing3.4b1bf5c3396f1d26d029.png",
+    "index.html": "/exemple/index.html",
+    "main.4a729a39.css.map": "/exemple/static/css/main.4a729a39.css.map",
+    "main.4d9c7ba0.js.map": "/exemple/static/js/main.4d9c7ba0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a729a39.css",
+    "static/js/main.4d9c7ba0.js"
+  ]
+}
